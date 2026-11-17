@@ -1,0 +1,10 @@
+{
+  "name": "lamplight-public-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lamplight Typewriter with a server-side Ollama AI proxy",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "dotenv": "^16.4.7", "express": "^4.21.2" }
+}
